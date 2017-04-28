@@ -161,6 +161,7 @@ public struct EZLoadingActivity {
             textLabel.font = UIFont(name: Settings.FontName, size: 30)
             textLabel.adjustsFontSizeToFitWidth = true
             textLabel.minimumScaleFactor = 0.25
+            textLabel.numberOfLines = 0
             textLabel.textAlignment = NSTextAlignment.center
             textLabel.text = text
             
